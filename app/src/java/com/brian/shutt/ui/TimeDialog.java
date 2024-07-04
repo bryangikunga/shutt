@@ -290,4 +290,4 @@ public class TimeDialog extends Dialog implements
         Intent launchIntent = packageManager.getLaunchIntentForPackage(mTargetPackage);
         mContext.startActivity(launchIntent);
     }
-}
+
